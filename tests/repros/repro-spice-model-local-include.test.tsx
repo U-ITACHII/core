@@ -52,5 +52,5 @@ X1 IN OUT GND GAIN_STAGE
   })
   expect(
     circuit.db.simulation_unknown_experiment_error.list().length,
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`0`)
 }, 15_000)
